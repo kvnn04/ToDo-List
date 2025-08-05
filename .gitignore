@@ -1,29 +1,17 @@
-# Entorno virtual
 venv/
 env/
 
-# Archivos compilados de Python
 *.pyc
 __pycache__/
 
-# Base de datos local
 db.sqlite3
 
-# Archivos de migraciones compilados (cache) dentro de cualquier carpeta
 **/__pycache__/
 
-# Archivos de logs
-*.log
-
-# Archivos estáticos compilados (si usás collectstatic)
-staticfiles/
-
-# IDEs y editores
 .vscode/
 .idea/
 *.sublime-project
 *.sublime-workspace
 
-# Archivos del sistema operativo
 .DS_Store
 Thumbs.db
