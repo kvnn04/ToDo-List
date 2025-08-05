@@ -1,0 +1,54 @@
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Entorno virtual
+venv/
+.env/
+.venv/
+
+# Archivos de configuración o variables secretas
+.env
+*.env
+
+# Archivos de base de datos SQLite (si solo es de desarrollo)
+db.sqlite3
+
+# Archivos de migraciones (opcionales en dev, pero útiles si subís el repo a producción o compartís)
+# Puedes ignorarlos si solo trabajás solo o querés evitar conflictos
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Archivos de logs
+*.log
+
+# Archivos de cache de Django
+*.mo
+*.pot
+
+# Archivos de test coverage
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Archivos de PyCharm o VSCode
+.idea/
+.vscode/
+
+# Archivos generados por pip-tools
+*.txt
+
+# Archivos estáticos generados
+staticfiles/
+static/
+
+# Archivos de media si los estás usando localmente
+media/
