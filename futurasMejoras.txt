@@ -1,0 +1,5 @@
+Lo que se podria mejorar:
+
+    -Poner una buena vista en los templates.
+    -Mejorar el nivel de manejo entre las applicaciones.
+    

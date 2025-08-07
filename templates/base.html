@@ -43,7 +43,8 @@
     {% else %}
       <a href="{% url 'login' %}">Iniciar sesión</a>
       <a href="{% url 'signup' %}">Registrarse</a>
-    {% endif %}
+      {% endif %}
+      <a href="{% url 'task-list' %}">Crear tareas</a>
   </nav>
 
   {% if messages %}
