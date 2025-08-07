@@ -18,12 +18,13 @@ from django.contrib import admin
 from django.urls import include, path
 from django.contrib.auth import views as auth_views
 from django.contrib.auth.views import LoginView, LogoutView
-from .views import signup_view,home
+from .views import signup_view,home,main
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('tasks/v1/', include('app_to_do.urls')),
     path('login/', LoginView.as_view(template_name='login.html'), name='login'),
     path('logout/', LogoutView.as_view(next_page='login'), name='logout'),
     path('signup/', signup_view, name='signup'),
-    path('home/', home, name='home')
+    path('home/', home, name='home'),
+    path('', main, name='main')
 ]

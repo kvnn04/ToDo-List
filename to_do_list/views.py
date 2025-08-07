@@ -20,3 +20,6 @@ def signup_view(request):
 def home(request):
     user = request.user
     return render(request, 'home.html', {'user': user})
+
+def main(request):
+    return render(request, 'main.html')
